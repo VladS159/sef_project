@@ -2,12 +2,12 @@ package Controllers;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class addItemControllerTest {
 
     @Test
     void initialize() {
+
+        //File file = new File(System.getProperty("user.dir") + "\\src\\main\\resources\\" + + "_items.txt");
     }
 
     @Test
