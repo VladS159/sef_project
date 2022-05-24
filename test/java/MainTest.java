@@ -1,11 +1,11 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MainTest {
 
     @Test
     void start() {
+        //int ok = 0; //false
+        //File file = new File(System.getProperty("user.dir") + "\\src\\main\\resources\\Database.txt");
     }
 
     @Test
