@@ -22,10 +22,10 @@ test {
 
 javafx{
     modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.swing', 'javafx.base' ]
-    version = '11.0.2'
+    version = '18'
 }
 
-mainClassName = 'test.main'
+mainClassName = 'Main'
 
 jar
         {
