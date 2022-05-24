@@ -24,12 +24,28 @@ javafx{
     modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.swing', 'javafx.base' ]
     version = '18'
 }
+plugins {
+    id 'java'
+}
 
-mainClassName = 'Main'
+repositories {
+    mavenCentral()
+}
 
-jar
-        {
-            manifest{
-                attributes "Main-Class": "$mainClassName"
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+
+}
+    mainClassName = 'Main'
+
+    jar
+            {
+                manifest {
+                    attributes "Main-Class": "$mainClassName"
+                }
             }
-        }
